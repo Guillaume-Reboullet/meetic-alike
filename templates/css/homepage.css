@@ -1,0 +1,109 @@
+*{
+    margin: 0% 0%;
+    padding: 0% 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: #fcc9c8; 
+}
+
+header{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+header{
+    figcaption{
+        margin-left: 1%;
+        margin-top: 1%;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+#nav_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+nav{
+    display: flex;
+    width: 50%;
+    margin-top: 1.5%;
+    align-self: center;
+    justify-content: space-around;
+}
+
+aside{
+    width: 300px;
+    border: 1px solid grey;
+    margin-left: 1%;
+}
+
+aside h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+aside form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+form label{
+    margin: 5% 0%;
+}
+
+form select{
+    width: fit-content;
+}
+
+form input{
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+fieldset legend{
+    margin-bottom: 5%;
+}
+
+fieldset label{
+    margin-left: 15%;
+}
+
+form fieldset{
+    border: none;
+    align-items: baseline;
+    margin-bottom: 5%;
+}
+
+form button{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 50%;
+}
+
+form label #age_container{
+        display: flex;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+section{
+    border: 1px solid grey;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 20%;
+}
